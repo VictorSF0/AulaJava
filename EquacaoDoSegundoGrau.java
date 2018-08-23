@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 public class EquacaoDoSegundoGrau {
     public static void main(String[] args) {
-        Scanner scr = new Scanner(System.in);
+        Scanner tcl = new Scanner(System.in);
         System.out.println("Digite o valor de a: ");
-        int a = scr.nextInt();
+        int a = tcl.nextInt();
         System.out.println("Digite o valor de b: ");
-        int b = scr.nextInt();
+        int b = tcl.nextInt();
         System.out.println("Digite o valor de c: ");
-        int c = scr.nextInt();
+        int c = tcl.nextInt();
         
         int delta = (b * b) + (-4 * a * c); 
         int x1 = (-b + ((int)Math.sqrt(delta)))/2 * a;
