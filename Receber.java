@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Receber {
     public static void main(String[] args) {
-        Scanner scr = new Scanner(System.in);
-        int a  = scr.nextInt();
-        int b  = scr.nextInt();
+        Scanner tcl = new Scanner(System.in);
+        int a  = tcl.nextInt();
+        int b  = tcl.nextInt();
         
         if(a > b){
             System.out.println(a + " é o maior");
