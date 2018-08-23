@@ -3,15 +3,15 @@ import java.util.Scanner;
 
 public class OrdemCouD {
     public static void main(String[] args) {
-        Scanner scr = new Scanner(System.in);
+        Scanner tcl = new Scanner(System.in);
         int aux = 0;
         System.out.print("Quantos valores: ");
-        int n = scr.nextInt();
+        int n = tcl.nextInt();
         System.out.println("Ordem Crescente ou Decrescente: [c/d]");
-        String CouD = scr.next();
+        String CouD = tcl.next();
         int v[] = new int[n];
         for (int i = 0; i < v.length; i++) {
-            v[i] = scr.nextInt();
+            v[i] = tcl.nextInt();
         }
         if(CouD.equals("c") || CouD.equals("C")){
             for (int i = 0; i < v.length; i++) {
