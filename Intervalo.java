@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Intervalo {
     public static void main(String[] args) {
-        Scanner scr = new Scanner(System.in);
+        Scanner tcl = new Scanner(System.in);
         System.out.print("Digite o n° de início: ");
-        int inicio = scr.nextInt();
+        int inicio = tcl.nextInt();
         System.out.print("Digite o n° do fim: ");
-        int fim = scr.nextInt();
+        int fim = tcl.nextInt();
         if(inicio == fim + 1 || inicio == fim || fim == inicio + 1){
             System.out.println("Não há intervalos");
         }
